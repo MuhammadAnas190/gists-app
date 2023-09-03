@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gist Component should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-gsFSXq cCMyxZ"
+  >
+    <div
+      class="sc-kAyceB hLXIir"
+    >
+      <div
+        class="sc-aXZVg cWrJRO"
+      >
+        <img
+          class="sc-gEvEer cjclob"
+          src="https://avatars.githubusercontent.com/u/8363252?v=4"
+        />
+        <p>
+          bryopsida
+        </p>
+      </div>
+      <div
+        class="sc-imWYAI dQcJWG"
+      >
+        <div
+          class="sc-eqUAAy ecMSCB"
+        >
+          <span
+            class="octicon octicon-code"
+          />
+          <p>
+            1 Files
+          </p>
+        </div>
+        <div
+          class="sc-eqUAAy ecMSCB"
+        >
+          <span
+            class="octicon octicon-repo-forked"
+          />
+          <p>
+            Forks
+          </p>
+        </div>
+        <div
+          class="sc-eqUAAy ecMSCB"
+        >
+          <span
+            class="octicon octicon-comment"
+          />
+          <p>
+            0 Comments
+          </p>
+        </div>
+        <div
+          class="sc-eqUAAy ecMSCB"
+        >
+          <span
+            class="octicon octicon-star"
+          />
+          <p>
+            Stars
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-jXbUNg gVHlFf"
+    >
+      <div
+        class="sc-dcJsrY RPpny"
+      >
+        <span>
+          Created at:
+        </span>
+        <span>
+          N/A
+        </span>
+      </div>
+      <div
+        class="sc-dcJsrY RPpny"
+      >
+        <span>
+          Updated at:
+        </span>
+        <span>
+          N/A
+        </span>
+      </div>
+    </div>
+    <h4>
+      Ansible playbook to install Falco on Debian systems
+    </h4>
+    <div
+      class="sc-iGgWBj gXEntF"
+    >
+      <div
+        class="sc-eqUAAy ecMSCB"
+      >
+        <span
+          class="octicon octicon-file"
+        />
+        <a
+          class="sc-fqkvVR jDLZtY"
+          href="https://gist.githubusercontent.com/bryopsida/d8c6a231c9c785fa8b2eefb18b1412fd/raw/9b487fe18f1d5b8056b8b1db3b606e52295658d4/install-falcon.yaml"
+          target="_blank"
+        >
+          install-falcon.yaml
+        </a>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

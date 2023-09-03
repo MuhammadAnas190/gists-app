@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Date Component should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-aXZVg ZcvCR"
+  >
+    <span>
+      Created At:
+    </span>
+    <span>
+      10/10/2023
+    </span>
+  </div>
+</DocumentFragment>
+`;

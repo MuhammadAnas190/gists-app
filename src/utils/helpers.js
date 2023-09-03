@@ -31,14 +31,12 @@ export const debounce = debounceFunction();
 export const getFormattedDate = (time) => dayjs(time).format(DATE_FORMAT);
 
 /**
- * The `isEmpty` function checks if a value is empty, which includes undefined, null, empty objects,
- * and empty strings.
- * @param value - The `value` parameter is the value that you want to check if it is empty or not.
- * It can be of any type, such as a string, number, object, array, etc.
- * @returns a boolean value. It returns true if the value is empty (undefined, null,
- * an empty object, or a string with only whitespace characters), and false otherwise.
+ * The `isEmpty` function checks if a value is empty, including objects with no properties, empty
+ * strings, and falsy values.
+ * @param value - The `value` parameter is the value that you want to check for emptiness. It can
+ * be of any type, such as a string, object, array, or any other data type.
+ * @returns boolean
  */
-export const isEmpty = (value) => value === undefined
-  || value === null
+export const isEmpty = (value) => !value
   || (typeof value === 'object' && Object.keys(value).length === 0)
   || (typeof value === 'string' && value.trim().length === 0);
