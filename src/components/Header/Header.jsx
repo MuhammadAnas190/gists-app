@@ -1,7 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
 import Octicon from 'react-octicon';
-import Search from './Search';
+import { Search } from '../Search/Search';
+
+export function Header() {
+  return (
+    <Wrapper>
+      <Octicon name="mark-github" mega />
+      <Search />
+    </Wrapper>
+  );
+}
 
 const Wrapper = styled.div`
   background-color: #24292e;
@@ -13,17 +22,3 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
 `;
-
-function Header() {
-  return (
-    <Wrapper>
-      <Octicon
-        name="mark-github"
-        mega
-      />
-      <Search />
-    </Wrapper>
-  );
-}
-
-export default Header;

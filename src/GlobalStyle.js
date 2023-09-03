@@ -9,6 +9,12 @@ const GlobalStyles = createGlobalStyle`
   *{
     box-sizing: border-box;
   }
+  .text-center {
+    text-align: center;
+  }
+  h4, p, span {
+    margin: 0;
+  }
 `;
 
 export default GlobalStyles;
