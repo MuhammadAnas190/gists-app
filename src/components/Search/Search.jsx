@@ -90,5 +90,3 @@ const Input = styled.input`
     outline: 0;
   }
 `;
-
-export default Search;

@@ -5,10 +5,7 @@ import { getFormattedDate } from '../../utils/helpers';
 
 export const Date = ({ label, time }) => (
   <Wrapper>
-    <span>
-      {label}
-      :
-    </span>
+    <span>{label}:</span>
     <span>{time ? getFormattedDate(time) : 'N/A'}</span>
   </Wrapper>
 );
@@ -28,5 +25,3 @@ Date.propTypes = {
 Date.defaultProps = {
   time: '',
 };
-
-export default Date;

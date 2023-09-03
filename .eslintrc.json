@@ -8,6 +8,7 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
+  "plugins": ["prettier", "react", "testing-library", "jest"],
   "ignorePatterns": ["src/index.js"],
   "rules": {
     "import/prefer-default-export": ["off"],

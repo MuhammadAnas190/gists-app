@@ -55,7 +55,7 @@ export const GistList = () => {
           comments,
           comments_url: commentsUrl,
           created_at: createdAt,
-          update_at: updatedAt,
+          updated_at: updatedAt,
           description,
           owner,
           forks_url: forksUrl,
@@ -81,5 +81,3 @@ const GistListWrapper = styled.div`
   max-width: 700px;
   margin: 40px auto 0;
 `;
-
-export default GistList;

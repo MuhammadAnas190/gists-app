@@ -29,5 +29,3 @@ UserTitle.propTypes = {
   name: PropTypes.string.isRequired,
   imageSrc: PropTypes.string.isRequired,
 };
-
-export default UserTitle;

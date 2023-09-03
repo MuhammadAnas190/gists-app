@@ -37,5 +37,3 @@ IconText.propTypes = {
   text: PropTypes.string.isRequired,
   link: PropTypes.string,
 };
-
-export default IconText;
